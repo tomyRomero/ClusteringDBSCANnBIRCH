@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Dataset (download it yourself, see the README)
+Mall_Customers.csv

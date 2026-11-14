@@ -9,7 +9,7 @@ from yellowbrick.cluster import SilhouetteVisualizer
 from sklearn.metrics.cluster import normalized_mutual_info_score
 
 # Prepping Dataset
-df = pd.read_csv("Mall_customers.csv")
+df = pd.read_csv("Mall_Customers.csv")
 # Show Dataset Info
 print("Info:")
 print(df.info())
