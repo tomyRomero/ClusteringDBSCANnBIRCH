@@ -46,3 +46,7 @@ On Linux, where file names are case sensitive, the script will not find the data
 - **A fixed random seed.** K-means starts from random centres; setting `random_state` would make every run give the same curve and scores.
 - **Fairer timings.** Each timer also covers the plotting and the time a chart window stays open, and the K-means timer covers ten fits, so the times compare more than the algorithms.
 - **The limits of the study.** Two features, 200 customers, unscaled data, a hand-picked DBSCAN `eps` and one measure (the silhouette score) are enough for a class comparison, not for general claims about the algorithms.
+
+## Licence
+
+The code is under the MIT licence: see [LICENSE](LICENSE). The report and slides are my own writing. The dataset is not mine and keeps its own source's terms: it is the Kaggle [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python), from Udemy's Machine Learning A-Z course, licence listed as "Other (specified in description)".
