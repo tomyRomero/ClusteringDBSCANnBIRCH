@@ -1,0 +1,9 @@
+# Tested with Python 3.14 on macOS.
+# yellowbrick 1.5 imports distutils, which Python 3.12 removed; setuptools brings it back.
+# scikit-learn 1.9 no longer works with yellowbrick 1.5; 1.7.2 does.
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.7.2
+setuptools==84.2.1
+yellowbrick==1.5
