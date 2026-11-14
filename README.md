@@ -34,8 +34,6 @@ python main.py
 
 The script opens each chart in a window; close it to move on to the next. At the end it prints the time each algorithm took and the DBSCAN and BIRCH silhouette scores (0.114 and 0.323, the same as in `Code_Results.txt`). To run it without windows, use `MPLBACKEND=Agg python main.py`.
 
-On Linux, where file names are case sensitive, the script will not find the dataset: it opens `Mall_customers.csv` while the file is `Mall_Customers.csv`.
-
 ## Dataset
 
 The dataset is not included in this repo: its source does not state terms that allow sharing it again. Download it yourself before running the script:
