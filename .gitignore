@@ -11,3 +11,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Dataset (download it yourself, see the README)
+Mall_Customers.csv

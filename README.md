@@ -38,7 +38,11 @@ On Linux, where file names are case sensitive, the script will not find the data
 
 ## Dataset
 
-`Mall_Customers.csv` holds 200 customers (ID, gender, age, annual income, spending score). It came from the gist credited above. The same data is on Kaggle as [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python), whose page says it comes from Udemy's Machine Learning A-Z course and lists its licence as "Other (specified in description)" without stating any terms.
+The dataset is not included in this repo: its source does not state terms that allow sharing it again. Download it yourself before running the script:
+
+1. Get the CSV from the Kaggle page [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python) (it is also in the gist credited above). The Kaggle page says it comes from Udemy's Machine Learning A-Z course and lists its licence as "Other (specified in description)" without stating any terms.
+2. Save it as `Mall_Customers.csv` in the repo folder, beside `main.py`. The file name is in `.gitignore`, so your copy is not committed.
+3. Check it is the right file: 200 rows of customers plus a header row with the columns `CustomerID`, `Gender`, `Age`, `Annual Income (k$)` and `Spending Score (1-100)`.
 
 ## What I would do differently today
 
